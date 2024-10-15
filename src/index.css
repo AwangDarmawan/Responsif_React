@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: 'ClashDisplay';
+        src: url('./Assets/ClashDisplay/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Semibold.otf') format('otf');
+    }
+    /* memodifikasi default */
+    
+    h1{
+        font-family: ClashDisplay;
+    }
+    }
