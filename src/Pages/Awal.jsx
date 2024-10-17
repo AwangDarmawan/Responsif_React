@@ -4,13 +4,15 @@ import Section1 from '../Components/Section1';
 import Section2 from '../Components/Section2'
 import Section3 from '../Components/Section3';
 
+
 function Awal() {
   return (
     <>
-      <h1 className='text-5xl font-bold'> Halaman 1</h1>
+   
+      
       <Nav/>
       <Section1/>
-      <Section2/>
+      <Section2/> 
       <Section3/>
     </>
   )
